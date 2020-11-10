@@ -37,3 +37,10 @@
 
 /*Ending of header and nav*/
 
+/* Banner Styling*/
+
+.site-main .site-banner
+{
+  background: url(../images/banner/background.jpg);
+}
+/* End of Banner Styling*/
