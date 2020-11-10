@@ -1,0 +1,39 @@
+/*Import google fonts*/
+@import url('fonts.css');
+
+/*Import variables*/
+@import url('./paritials/variables.css');
+/*NAV BAR CSS*/
+
+.header_rc .main_menu .navbar .navbar-brand{
+   padding: 0rem 2rem 0rem 5rem;
+}
+
+.header_rc .main_menu .navbar {
+    padding: 1rem 20rem;
+}
+.header_rc .main_menu .nav-item .nav-link
+{   font: normal 500 15px/2px var(--roboto);
+   
+    text-transform: uppercase;
+    padding: 1.5rem;
+    color:var(--title-color);
+}
+
+.header_rc .main_menu .navbar-nav .active  a{
+ background: var(--gradient-color);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ background-clip: text;
+}
+
+.header_rc .main_menu .navbar-nav  a:hover{
+    background: var(--gradient-color);
+    font-weight: 750;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+   }
+
+/*Ending of header and nav*/
+
