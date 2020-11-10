@@ -1,0 +1,61 @@
+/*Global Classes*/
+
+.title-text{
+    font:normal bold ;
+    font-family: "Roboto";
+}
+
+.text-uppercase{
+   text-transform: uppercase;
+}
+
+/*Button*/
+
+.button{
+    padding: 0.8rem 2.2rem;
+    font: normal 500 16px/20px var(--roboto);
+}
+
+.button.primary-button
+{  
+    background: var(--gradient-color);
+    background-clip: padding-box;
+    color: whitesmoke;
+    transition: background.6s ease;
+    box-shadow: var(--box-shadow);
+    border: solid rgb(38, 55, 206);
+    border-radius: 5px;
+}
+.button.primary-button:hover
+{
+   background: whitesmoke;
+   background-clip: padding-box;
+   color: rgb(250, 39, 2);
+   
+}
+.button .primary-button::after,.button.secondary-button::after
+{
+    position: absolute;
+    top: -2px; left:-2px ;
+    background: var(--gradient-color);
+    content: "";
+    z-index: -1;
+    border-radius: 4px;
+}
+
+.button.secondary-button{
+    background: whitesmoke;
+    background-clip: padding-box;
+    color: rgb(0, 0, 0);
+    transition: background.6s ease;
+    border: solid  rgb(38, 55, 206);
+    border-radius: 5px;
+    
+}
+
+.button.secondary-button:hover{
+    background: var(--gradient-color);
+    color: wheat;
+    box-shadow: var(--box-shadow);
+}
+
