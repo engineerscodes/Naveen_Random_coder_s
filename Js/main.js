@@ -1,7 +1,7 @@
 //Sticky nav menu /bar
 $(document).ready(function(){
 
-  let nav_offset_top=$('.header_rc').height()+50; 
+  let nav_offset_top=$('.header_rc').height(); 
   function navbarfixed()
   {
       if($('.header_rc').length){
