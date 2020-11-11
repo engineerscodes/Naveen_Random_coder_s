@@ -59,3 +59,8 @@
     box-shadow: var(--box-shadow);
 }
 
+
+p.para{
+    color: var( --text-color);
+    font: normal bold 16px/ 25px var(--roboto);
+}
