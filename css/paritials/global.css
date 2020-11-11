@@ -64,3 +64,7 @@ p.para{
     color: var( --text-color);
     font: normal bold 16px/ 25px var(--roboto);
 }
+
+.font-roboto{
+    font-family: var(--roboto);
+}
