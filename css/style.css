@@ -103,3 +103,46 @@
 
 
 /*End of About area*/
+
+/*Start Lang and Tools */
+
+.site-main .lang-area{
+    padding: 1rem 20rem;
+    margin-bottom: 4rem;
+}
+ 
+.site-main .lang-area .first-row .col-lg-4{
+ display: flex;
+ justify-content: center;
+}
+
+.site-main .lang-area .first-row .col-lg-4 >.single-lang{
+   border: 2px solid var(--border-color);
+   text-align: center;
+   padding: 1.5rem 0rem;
+   margin: 0.2rem 0;
+   width: 180px;
+   height: 120px;
+   cursor: pointer;
+   transition: transform.4s ease;
+}
+
+.site-main .lang-area .first-row .col-lg-4 >.single-lang>img{
+    width: 80%;
+}
+
+.site-main .lang-area .first-row .col-lg-4 >.single-lang:hover
+{
+    box-shadow: var(--box-shadow);
+    transform: scale(1.1);
+}
+
+.site-main .lang-area .first-row .col-lg-4 >.single-lang:hover>img{
+    filter: brightness(1.25);
+    
+}
+
+
+
+
+/*End Lang and Tools */
