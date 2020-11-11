@@ -128,19 +128,58 @@
 }
 
 .site-main .lang-area .first-row .col-lg-4 >.single-lang>img{
-    width: 80%;
+    width: 85%;
 }
 
 .site-main .lang-area .first-row .col-lg-4 >.single-lang:hover
 {
     box-shadow: var(--box-shadow);
     transform: scale(1.1);
+    border: solid 1.5px black;
 }
 
 .site-main .lang-area .first-row .col-lg-4 >.single-lang:hover>img{
     filter: brightness(1.25);
-    
+   
 }
+
+.site-main .lang-area .tool-area{
+    padding: 1rem;
+}
+
+.site-main .lang-area .tool-area span{
+    display: block;
+}
+
+.site-main .lang-area .tool-area .years-area{
+    background: url(../images/client-info-bg.png) no-repeat 45px 20px;
+    padding: 2rem 0;
+    width: 40rem;
+    height: 18rem;
+    padding-left: 8rem;
+    position: relative;
+}
+
+.site-main .lang-area .tool-area .bg-panel{
+    position: absolute;
+    left: -190px; top: 0%;
+    background: #b403030a;
+    width: 400px;
+    height: 400px;
+    margin-left: 340px;
+    z-index: -1;
+}
+.site-main .lang-area .tool-area .years-area .years{
+   font: normal bold 84px/40px var(--roboto);
+   color: var(--primary-color);
+   z-index: 2;
+}
+
+.site-main .lang-area .tool-area .years-area h2>span{
+ font: normal 600 22px/30px var(--roboto);
+}
+
+
 
 
 
