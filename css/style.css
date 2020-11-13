@@ -12,7 +12,7 @@
 
 
 .header_rc .main_menu .navbar .navbar-brand{
-   padding: 0rem 2rem 0rem 5rem;
+   padding: 0rem 2rem 0rem 2rem;
 }
 
 .header_rc .main_menu .navbar {
@@ -35,7 +35,7 @@
 
 .header_rc .main_menu .navbar-nav  a:hover{
     background: var(--gradient-color);
-    font-weight: 750;
+    
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -47,7 +47,7 @@
 
 .site-main .site-banner
 {
-  background: url(../images/banner/background.jpg) repeat 0% 50%;
+  background: url(../images/banner/background\ -\ Copy.jpg) no-repeat 0% 50%;
 }
 
 
@@ -179,7 +179,7 @@
  font: normal 600 22px/30px var(--roboto);
 }
 .site-main .lang-area .tool-area .call-area {
-    padding: 5rem;
+    padding: 2rem;
 
 }
 
