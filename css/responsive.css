@@ -9,5 +9,48 @@
         padding: 2%;
         margin: 0%;
     }
-    
+
+    .site-main .site-banner .site-title h1{
+        font-size: 41px;
+    }
+
+}
+
+@media only screen and (max-width: 792px){
+    .site-main .about-area .about-title h2>span{
+       font-size: 31px;
+       letter-spacing: 10px;
+    } 
+    .site-main .lang-area .tool-area .years-area{
+        padding-left: 1%;
+        width: 49%;
+    }
+
+    .site-main .lang-area .tool-area .years-area .bg-panel{
+        margin-left: 30%;
+        width: 80%;
+    }
+
+    .site-main .lang-area .tool-area .years-area.call-area{
+        padding-left: 3%;
+    }
+    .site-main .about-area .about-title p{
+         page-break-after: 0%;
+    }
+}
+
+@media only screen and (max-width: 1910px){
+    .header_rc .main_menu .navbar{
+        padding: 1rem;
+    }
+
+    .container{
+        max-width: 90%;
+    }
+
+    .site-main .lang-area,
+    .site-main .about-area 
+    {
+       padding: 3% 5%;
+    }
 }
