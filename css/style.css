@@ -158,7 +158,7 @@
     padding-left: 8rem;
     position: relative;
 }
-
+/*
 .site-main .lang-area .tool-area .bg-panel{
     position: absolute;
     left: -190px; top: 0%;
@@ -167,7 +167,9 @@
     height: 400px;
     margin-left: 340px;
     z-index: -1;
+    removed this from index.html
 }
+*/
 .site-main .lang-area .tool-area .years-area .years{
    font: normal bold 84px/40px var(--roboto);
    color: var(--primary-color);
