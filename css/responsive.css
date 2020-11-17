@@ -35,7 +35,7 @@
         padding-left: 3%;
     }
     .site-main .about-area .about-title p{
-         page-break-after: 0%;
+         padding: 0%;
     }
 }
 

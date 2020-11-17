@@ -162,9 +162,9 @@
 .site-main .lang-area .tool-area .bg-panel{
     position: absolute;
     left: -190px; top: 0%;
-    background: #b403030a;
+    background: #e029290a;
     width: 400px;
-    height: 500px;
+    height: 400px;
     margin-left: 340px;
     z-index: -1;
 }
