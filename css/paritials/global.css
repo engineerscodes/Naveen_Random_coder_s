@@ -81,3 +81,11 @@ p.para{
     transition: background 1s ease;
     
 }
+
+a:link{
+    color: rgb(7, 224, 134);
+}
+a:visited{
+    color: rgb(255, 0, 191);
+}
+
