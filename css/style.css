@@ -34,7 +34,7 @@
 
 .header_rc .main_menu .navbar-nav  a:hover{
     background: var(--gradient-color);
-    
+     font-weight: bold;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -69,6 +69,7 @@
    .site-main .site-banner .site-title h1{
     font-size: 5rem;
    }
+   
    .site-main .site-banner .site-title h4{
     font-size: 1.5rem;
     
