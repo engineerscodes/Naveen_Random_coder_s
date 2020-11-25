@@ -34,7 +34,6 @@
 
 .header_rc .main_menu .navbar-nav  a:hover{
     background: var(--gradient-color);
-     font-weight: bold;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -177,7 +176,10 @@
    color: var(--primary-color);
    z-index: 2;
 }
-
+ .behind{
+    position: relative;
+    z-index: -3;
+}
 .site-main .lang-area .tool-area .years-area h2>span{
  font: normal 600 22px/30px var(--roboto);
 }
@@ -215,3 +217,28 @@ footer.footer-area .social a:hover>i{
 
 
 /*END OF FOOTER*/
+
+/*Mouse Animations*/
+.cursor{
+    width: 2rem;
+    height: 2rem;
+    border: 2px solid black ;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    pointer-events: none;
+    transition: all 0.0s ease;
+    transition-property: background,transform;
+    transform-origin: 100% 100%;
+    z-index: -1;
+    backdrop-filter: grayscale();
+}
+
+.link-grow{
+    transform: scale(2);
+    background-color:black;
+   
+}
+
+
+/*End of Mouse Animations*/
