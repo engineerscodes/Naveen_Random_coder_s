@@ -9,13 +9,13 @@
 
 /*NAV BAR CSS*/
 
-
 .header_rc .main_menu .navbar .navbar-brand{
    padding: 0rem 2rem 0rem 5rem;
 }
 
 .header_rc .main_menu .navbar {
     padding: 1rem 20rem;
+   
 }
 .header_rc .main_menu .nav-item .nav-link
 {   font: normal 500 15px/2px var(--roboto);
@@ -240,7 +240,7 @@ footer.footer-area .social a:hover>i{
    
 }
 
-.header_rc{
+.header_rc_about{
     cursor: none;
 }
 
