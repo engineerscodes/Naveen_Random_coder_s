@@ -13,6 +13,12 @@
     .site-main .site-banner .site-title h1{
         font-size: 41px;
     }
+    .header_rc_about .cursor{
+        display: none;
+    }
+    .header_rc_about{
+        cursor: pointer;
+    }
 
 }
 
