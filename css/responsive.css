@@ -17,10 +17,7 @@
         display: none;
         visibility: hidden;
     }
-    .header_rc_about{
-        cursor: pointer;
-    }
-
+   
 }
 
 @media only screen and (max-width: 792px){
