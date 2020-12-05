@@ -15,6 +15,7 @@
     }
     .header_rc_about .cursor{
         display: none;
+        visibility: hidden;
     }
     .header_rc_about{
         cursor: pointer;
