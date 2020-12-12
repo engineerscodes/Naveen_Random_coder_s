@@ -11,14 +11,18 @@ const home1=document.getElementById('homes1');
 const home2=document.getElementById('homes2');
 const home3=document.getElementById('homes3');
 const home4=document.getElementById('homes4');
-
+const footd=document.getElementById('food');
 const foots=document.getElementById('footdark');
+const pro=document.getElementById("pr");
+const speak=document.getElementById('talk');
+const scam=document.getElementById('scam');
 checkbox.addEventListener('change',()=>{
    
    document.body.classList.toggle('dark');
    if(navbars.classList.contains('navblacktheme') || back.classList.contains('noback') )
   {
    navbars.classList.remove('navblacktheme');
+   scam.classList.remove('look');
     back.classList.remove('noback') ;
     navact.classList.remove('navtext');
     navact1.classList.remove('navtext');
@@ -32,7 +36,9 @@ checkbox.addEventListener('change',()=>{
     home4.classList.remove('act');
 
      foots.classList.remove('footblue');
-
+     speak.classList.remove('whyabout');
+     pro.classList.remove('prg');
+     footd.classList.remove('bot');
   }
   else{ navbars.classList.add('navblacktheme');
    navact.classList.add('navtext');
@@ -49,6 +55,11 @@ checkbox.addEventListener('change',()=>{
     home3.classList.add('act');
     home4.classList.add('act');
     foots.classList.add('footblue');
+    speak.classList.add('whyabout');
+    pro.classList.add('prg');
+    scam.classList.add('look');
+    footd.classList.add("bot");
   }
   
 });
+

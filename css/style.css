@@ -338,7 +338,7 @@ body.dark{
    footer.footblue{
     padding: 5rem 0;
     background: none !important;
-    color: green;
+    color:white;
 }
 
 footer.footblue .social a>i{
@@ -359,3 +359,27 @@ footer.footblue .social a>i{
    
     color: white;
 }
+
+
+.whyabout{
+    color: white;
+}
+.whyabout p{
+    color: white;
+}
+
+.site-main .lang-area .tool-area .prg{
+    color: white;
+}
+.site-main .lang-area .tool-area .prg .years{
+    color:  rgb(7, 224, 134);
+}
+   .site-main .lang-area .tool-area .look{
+    color: white;
+   
+   }
+
+   footer.footer-area .bot{
+color: white;
+   }
+
