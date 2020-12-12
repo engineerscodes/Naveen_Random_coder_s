@@ -14,7 +14,7 @@
       <link rel="stylesheet" href="css/responsive.css">
       <!--Icon-->
       <link rel="icon" href="images/logo-r.png">
-    
+     <!--Drak theme-->
 </head>
 <body>
 
@@ -23,28 +23,28 @@
    <header class="header_rc">
 
         <div class="main_menu">
-            <nav class="navbar navbar-expand-lg navbar-light">
+            <nav class="navbar navbar-expand-lg navbar-light" id="navblack" >
                 <a class="navbar-brand" href="#"><img src="images/cover2.png" alt="Random Coder's" ></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
                  <div class="collapse navbar-collapse" id="navbarNav">
                     <div class="mr-auto"></div>
-                  <ul class="navbar-nav">
-                    <li class="nav-item active">
-                      <a   class="nav-link " href="index.html">Home <span class="sr-only">(current)</span></a>
+                  <ul class="navbar-nav" >
+                    <li class="nav-item active" id="homes">
+                      <a   class="nav-link " href="index.html" id="activebar">Home <span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="projects.html">Projects</a>
+                    <li class="nav-item" id="homes1">
+                      <a class="nav-link " href="projects.html" id="activebar1">Projects</a>
                     </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="about.html">About</a>
+                    <li class="nav-item" id="homes2">
+                      <a class="nav-link" href="about.html" id="activebar2">About</a>
                     </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="contact.html">Contact</a>
+                    <li class="nav-item" id="homes3">
+                      <a class="nav-link" href="contact.html" id="activebar3">Contact</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Blog</a>
+                    <li class="nav-item" id="homes4">
+                        <a class="nav-link" href="#" id="activebar4">Blog</a>
                       </li>
                   </ul>
                 </div>
@@ -61,7 +61,7 @@
          <main class="site-main">
 
         <!--=======================================Start of Banner Area==============================================================-->
-        <section class="site-banner">
+        <section class="site-banner" id="backme">
 
         <div class="container">
             <div class="row">     <!--BootStrap Grid System https://www.w3schools.com/bootstrap/bootstrap_grid_examples.asp-->
@@ -73,7 +73,16 @@
                         <div class="d-flex flex-row flex-wrap">
                             <button type="button" class="btn button primary-button mr-4 text-uppercase" onclick="location.href='https://github.com/engineerscodes/';"> Git</button>
                             <button type="button" class="btn button secondary-button text-uppercase " onclick="location.href='https://www.linkedin.com/in/naveen-naveen-7742b7190/';" >LinkedIn</button>
-                        </div>   <!--BootStrap class d-flex flex-row flex-wrap-->
+                            <button type="button" class="btn text-uppercase " id="btn1"> <div>
+                              <input type="checkbox" class="checkbox" id="checkbox">
+                              <label for="checkbox" class="label">
+                                  <i class="fas fa-moon"></i>
+                                  <i class="fas fa-lightbulb"></i>
+                                  <div class="ball"></div>
+                              </label>
+                          </div></button>
+                        
+                          </div>   <!--BootStrap class d-flex flex-row flex-wrap-->
                     </div>
                </div>                            
                <div class="col-lg-6 col-md-12 banner-image">
@@ -226,7 +235,7 @@
 
     <!--====================================End of Main Area===============================================================-->
     <!--======================================Footer=========================================================================================-->
-    <footer class="footer-area">
+    <footer class="footer-area" id="footdark">
           <div class="container">
             <div class="">
               <div class="site-logo text-center py-4">
@@ -259,5 +268,7 @@
 
     <!--MAIN.JS FILE-->
     <script src="Js/main.js"></script>
+
+    <script src="./Js/dark.js"></script>
 </body>
 </html>

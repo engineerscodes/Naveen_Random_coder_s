@@ -13,6 +13,8 @@
    padding: 0rem 2rem 0rem 5rem;
 }
 
+
+
 .header_rc .main_menu .navbar {
     padding: 1rem 20rem;
    
@@ -246,3 +248,101 @@ footer.footer-area .social a:hover>i{
 
 
 /*End of Mouse Animations*/
+/*DARK  */
+body.dark{
+    background-color:#0d1117;
+}
+
+
+.checkbox{
+    opacity: 0;
+    position: absolute;
+  
+}
+
+.checkbox:checked + .label .ball{
+    transform: translateX(24px);
+    transition: 0.5s;
+}
+
+.label{
+    background: #111;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 50px;
+    position: relative;
+    padding: 5px;
+    height: 30px;
+    width: 50px;
+    transform: scale(1.5);
+}
+
+
+.ball{
+    width: 22px;
+    height: 24px;
+    background-color: white;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    border-radius: 50px;
+    transition: 0.3s linear;
+}
+
+
+.fa-moon{
+    color: #f1c40f;
+}
+
+.fa-lightbulb{
+    color:#f38a12;
+}
+
+
+.site-main .noback
+{
+  background: none ;
+}
+
+#btn1{
+   margin-left: 20px;
+}
+
+.navblacktheme{
+   background-color: #0d1117;
+   
+}
+
+.header_rc .main_menu .nav-item .navtext{
+    color:white !important;
+    background-color: white !important;
+}
+.header_rc .main_menu .navbar-nav .act a{
+   
+ background: white;
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ background-clip: text;
+}
+
+.header_rc .main_menu .navbar-nav .act a:hover{
+    background: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+   }
+
+
+   footer.footblue{
+    padding: 5rem 0;
+    background: none !important;
+    color: green;
+}
+
+footer.footblue .social a>i{
+    font-size: 25px;
+    padding: 2rem;
+    color: white;
+}
+
