@@ -21,6 +21,11 @@
         cursor: pointer;
     }
 
+    #btn1{
+        margin-left: 20px;
+        margin-top: 10px;
+     }
+
 }
 
 @media only screen and (max-width: 792px){
