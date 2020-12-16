@@ -66,7 +66,20 @@
         <div class="container">
             <div class="row">     <!--BootStrap Grid System https://www.w3schools.com/bootstrap/bootstrap_grid_examples.asp-->
                <div class="col-lg-6 col-md-12 site-title">       <!--TO MAKE responsive-->
-                   <h3 class="title-text">Hey</h3>
+                   <h3 class="title-text">Hey
+                     <script>
+                       var date= new Date();
+                       var time=date.getHours();
+                       var message;
+                       if(time>17)
+                          message="Good Evening!"
+                       else if(time>11)
+                          message="Good AfterNoon!"
+                       else if(time>0)
+                           message="Good Morning!"
+                      document.write(message);
+                     </script>
+                   </h3>
                    <h1 class="title-text text-uppercase">I AM NAVEEN</h1>
                    <h4 class="title-text text-uppercase"> Student At Vit | 🅹🅰🆅🅰 🅳🅴🆅🅴🅻🅾🅿🅴🆁 </h4>
                     <div class="site-button">
