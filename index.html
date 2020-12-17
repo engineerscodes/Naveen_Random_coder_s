@@ -70,10 +70,11 @@
                      <script>
                        var date= new Date();
                        var time=date.getHours();
+                       
                        var message;
-                       if(time>17)
+                       if(time>=17)
                           message="Good Evening!"
-                       else if(time>11)
+                       else if(time>=11)
                           message="Good AfterNoon!"
                        else if(time>0)
                            message="Good Morning!"
