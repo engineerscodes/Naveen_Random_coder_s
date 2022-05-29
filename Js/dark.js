@@ -16,7 +16,7 @@ const foots=document.getElementById('footdark');
 const pro=document.getElementById("pr");
 const speak=document.getElementById('talk');
 const scam=document.getElementById('scam');
-const logo=document.getElementById('logoss');
+var logo=document.getElementById('logoss');
 checkbox.addEventListener('change',()=>{
    
    document.body.classList.toggle('dark');
